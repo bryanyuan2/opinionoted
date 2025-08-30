@@ -1,27 +1,19 @@
-# Opinionoted - Girls in Tech Taiwan x Facebook Hack for a Cause
+# Opinionoted
 
-Heroku App: [http://fb6likes.herokuapp.com](http://fb6likes.herokuapp.com)
+**Girls in Tech Taiwan x Facebook Hack for a Cause**
 
-Github: [https://github.com/maxis1718/fb6likes](https://github.com/maxis1718/fb6likes)
+A web application that analyzes and visualizes public opinions from social media data to provide insights for social causes and community engagement.
 
-## Running Locally
+### Application
+- **[Demo](http://fb6likes.herokuapp.com)** - Try the application online
 
-```sh
-$ git clone git@github.com:maxis1718/fb6likes.git
-$ cd fb6likes
-$ npm install
-$ modified `/etc/hosts`, and added `127.0.0.1 fb6likes.herokuapp.com`
-$ sudo PORT=80 node index.js
-```
-Your app should now be running on [localhost](http://localhost:80/).
+### Screenshots
 
-## Deploying to Heroku
+![Opinionoted Page](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_1.jpg)
 
-- push to the `master` branch (or file a PR), and it will deploy to heroku automatically
+![Opinionoted Query](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_2.jpg)
 
-## Screenshots
-![Opinionoted Page](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_1.jpg "Opinionoted Page")
+![Opinionoted Graph](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_3.jpg)
 
-![Opinionoted Query](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_2.jpg "Opinionoted Query")
-
-![Opinionoted Graph](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_3.jpg "Opinionoted Graph")
+### Media Coverage
+- **[FB x GIT Hack For A Cause 12小時公益黑客松](https://github.com/bryanyuan2/opinionoted-posts/blob/master/README.md)** - Event details and project documentation
