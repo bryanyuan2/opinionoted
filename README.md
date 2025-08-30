@@ -7,6 +7,18 @@ A web application that analyzes and visualizes public opinions from social media
 ### Application
 - **[Demo](http://fb6likes.herokuapp.com)** - Try the application online
 
+### Installation
+
+```
+sh
+$ git clone git@github.com:bryanyuan2/opinionoted.git
+$ cd opinionoted
+$ npm install
+$ modified `/etc/hosts`, and added `127.0.0.1 opinionoted.herokuapp.com`
+$ sudo PORT=80 node index.js
+```
+
+
 ### Screenshots
 
 ![Opinionoted Page](https://raw.githubusercontent.com/maxis1718/fb6likes/master/screenshots/opinionoted_1.jpg)
